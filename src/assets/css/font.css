@@ -20,6 +20,13 @@
 
 @font-face {
     font-family: 'Icons';
+    src: url('../fonts/fa-solid-900.woff2') format('woff2');
+    font-weight: normal; 
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'IconsTwo';
     src: url('../fonts/Icons.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
@@ -38,11 +45,11 @@
     -webkit-font-smoothing: antialiased;
 }
 
-.icon-close:before { font-family: "Icons"; content: "\e90e"; }
-.icon-minimize:before { font-family: "Icons"; content: "\e90b"; }
-.icon-maximize:before { font-family: "Icons"; content: "\e90c"; }
-.icon-restore-down:before { font-family: "Icons"; content: "\e90d"; }
-.icon-account-add:before { font-family: "Icons"; content: "\e901"; }
-.icon-account-delete:before { font-family: "Icons"; content: "\e902"; }
-.icon-settings:before { font-family: "Icons"; content: "\e909"; }
-.icon-monitor:before { font-family: "Icons"; content: "\e90a"; }
+.icon-close:before { font-family: "Icons"; content: "\f00d"; }
+.icon-minimize:before { font-family: "IconsTwo"; content: "\e90b"; }
+.icon-maximize:before { font-family: "IconsTwo"; content: "\e90c"; }
+.icon-restore-down:before { font-family: "IconsTwo"; content: "\e90d"; }
+.icon-account-add:before { font-family: "Icons"; content: "\f234"; }
+.icon-account-delete:before { font-family: "Icons"; content: "\f503"; }
+.icon-settings:before { font-family: "Icons"; content: "\f013"; }
+.icon-monitor:before { font-family: "Icons"; content: "\f390"; color: white; }

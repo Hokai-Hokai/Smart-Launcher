@@ -1,11 +1,11 @@
 {
-    "name": "Selvania-Launcher",
-    "preductname": "Selvania Launcher",
-    "version": "1.0.2",
+    "name": "smart-launcher", 
+    "preductname": "Smart Launcher",
+    "version": "1.0.1",
     "description": "Launcher Mincraft custom (crack, premium)",
     "main": "src/app.js",
-    "author": "Luuxis",
-    "url": "http://launcher.selvania.fr",
+    "author": "Hokai",
+    "url": "http://127.0.0.1",
     "engines": {
         "node": "16.x.x"
     },
@@ -31,6 +31,6 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/luuxis/Selvania-Launcher.git"
+        "url": "git+https://github.com/Hokai-Hokai/Smart-Launcher.git"
     }
 }

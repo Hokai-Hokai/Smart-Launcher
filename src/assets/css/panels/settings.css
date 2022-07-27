@@ -385,11 +385,12 @@
 
 .size-cross {
     margin: 10px;
+    color: white 
 }
 
 .size-cross:before {
-    font: normal normal bold 20px Icons;
-    content: "\e90e";
+    font: normal normal bold 20px Icons; 
+    content: "\58";
 }
 
 .select-wrap {
@@ -408,13 +409,13 @@
 .select-wrap:after {
     position: relative;
     top: -6px;
-    content: "\e903";
-    font-family: 'Icons';
+    content: "\f077";
+    font-family: 'Icons'; 
     margin-left: -1.2em;
     font-size: 24px;
     pointer-events: none;
     transform: rotate(180deg);
-    color: black;
+    color: white;
     transition: color .2s;
     pointer-events: none;
 }
